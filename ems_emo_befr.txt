@@ -1,0 +1,17 @@
+Regardez notre lettre d'information dans toute sa splendeur via votre navigateur web :
+<%@ include view='rc_be_asadventure_personalization_mirror_page' %>
+
+++++++++++++++
+A.S.Adventure
+++++++++++++++
+
+——————————————
+Lorem ipsum dolor sit amet
+——————————————
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed purus et arcu luctus tempor. Maecenas vestibulum sed sem quis eleifend. Integer et malesuada lacus. Aenean non egestas neque.
+
+[ + ] Aenean non egestas neque.:
+https://www.asadventure.com/fr.html
+
+<%@ include view='rc_be_marketing_footernew_befr' %>
