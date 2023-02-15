@@ -14,4 +14,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed purus et arcu
 [ + ] Aenean non egestas neque.:
 https://www.asadventure.com/nl.html
 
-<%@ include view='rc_be_marketing_footernew_benl' %>
+<%@ include view='rc_be_marketing_footer2023_benl' %>
