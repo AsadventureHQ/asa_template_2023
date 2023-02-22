@@ -80,13 +80,6 @@ max-width: 640px;
 padding: 10px;
 width: 640px;
 }
-.content {
-box-sizing: border-box;
-display: block;
-margin: 0 auto;
-max-width: 640px;
-padding: 10px;
-}
 /* ---------- MAJOR BLOCKS ---------- */
 .main {
 background: #ffffff;
@@ -113,6 +106,7 @@ td,
 blockquote {
 mso-line-height-rule: exactly;
 font-variant-numeric: lining-nums;
+letter-spacing: 0.25px;
 }
 a[href^=tel],
 a[href^=sms] {
@@ -135,9 +129,6 @@ padding: 0;
 /* ---------- OUTLOOK RESPONSIVENESS ---------- */
 @media only screen and (max-width:640px) {
 table.body .wrapper {
-padding: 0 !important;
-}
-table.body .content {
 padding: 0 !important;
 }
 table.body .container {
@@ -365,7 +356,6 @@ line-height: inherit;
     <tr>
       <td class="hide_mobile">&nbsp;</td>
       <td class="container">
-        <div class="content">
           <!-- START CENTERED WHITE CONTAINER -->
           <table role="presentation" class="main">
             <!-- START MAIN CONTENT AREA -->
@@ -405,11 +395,9 @@ line-height: inherit;
             <!-- END MAIN CONTENT AREA -->
           </table>
           <!-- END CENTERED WHITE CONTAINER -->
-        </div>
       </td>
       <td class="hide_mobile">&nbsp;</td>
     </tr>
   </table>
 </body>
-
 </html>
