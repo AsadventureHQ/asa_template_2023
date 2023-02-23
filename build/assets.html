@@ -83,7 +83,7 @@ width: 640px;
 .content {
 box-sizing: border-box;
 display: block;
-margin: 0 auto;
+margin: 0 auto !important;
 max-width: 640px;
 padding: 10px;
 }
@@ -113,6 +113,7 @@ td,
 blockquote {
 mso-line-height-rule: exactly;
 font-variant-numeric: lining-nums;
+letter-spacing: 0.25px;
 }
 a[href^=tel],
 a[href^=sms] {
@@ -137,9 +138,9 @@ padding: 0;
 table.body .wrapper {
 padding: 0 !important;
 }
-table.body .content {
+/*table.body .content {
 padding: 0 !important;
-}
+}*/
 table.body .container {
 padding: 0 !important;
 width: 100% !important;
@@ -513,7 +514,7 @@ line-height: inherit;
                   <tr>
                     <td align="center" style="font-size: 14px; line-height: 18px; padding: 24px 0 0;" class="px-2 pt-3">
                       <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #707070;"
-                        href="#A" _label="#L" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        href="#A" _label="#L" target="_blank" class="fontS">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud <span style="font-weight: bold; line-height: 18px;">exercitation</span> ullamco laboris
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -522,7 +523,7 @@ line-height: inherit;
                   <tr>
                     <td align="center" style="font-size: 14px; line-height: 18px; padding: 12px 0 0;" class="px-2 pt-3">
                       <a style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; text-decoration: none; color: #707070;"
-                        href="#A" _label="#L" target="_blank"> <span style="font-weight: bold; line-height: 18px;">Bold
+                        href="#A" _label="#L" target="_blank" class="fontS"> <span style="font-weight: bold; line-height: 18px;">Bold
                           body text</span> <br>
                         <span style="font-style: italic; line-height: 18px;">Italic body text</span> <br>
                         <span style="font-weight: bold; font-style: italic; line-height: 18px;">Bold Italic body
@@ -699,7 +700,7 @@ line-height: inherit;
                                 <td align="center" valign="middle" width="141" height="40"
                                   style="height:40px; font-size: 14px; line-height: 16px; border-radius: 25px;border: solid 1px #ecaa39;"
                                   bgcolor="#ecaa39"><a href="#A" _label="#L" target="_blank"
-                                    style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px; text-decoration:none; color:#ffffff;">Dames</a>
+                                    style="font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px; text-decoration:none; color:#ffffff;" >Dames</a>
                                 </td>
                                 <!--[if mso]>
                                 </center>            
@@ -1850,8 +1851,7 @@ line-height: inherit;
                         <tr>
                           <td align="center" style="padding: 40px 0 0;" class="pt-3"><a href="#A" _label="#L"
                               target="_blank"><img src="images/icons/icon_favoriet.png" width="150" alt="Icon"
-                                style="width:150px;display:block;border:0; font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#3b4345;"
-                                class="center"></a></td>
+                                style="width:150px;display:block;border:0; font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#3b4345;"></a></td>
                         </tr>
                         <tr>
                           <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;"
