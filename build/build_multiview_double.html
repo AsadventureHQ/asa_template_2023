@@ -1,0 +1,672 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings></xml><![endif]-->
+<!--[if gte mso 9]><style>li { text-indent: -1em; /* Normalise space between bullets and text */}</style><![endif]-->
+<title>A.S.Adventure</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<link rel="Shortcut Icon" type="image/x-icon"
+href="https://www.asadventure.com/etc/designs/asadventure/clientlibs/favicon/favicon.ico">
+<style type="text/css">
+/* ---------- FONT ---------- */
+@font-face {
+font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 400;
+display: swap;
+src: url(https://fonts.gstatic.com/s/sourceserifpro/v15/neIQzD-0qpwxpaWvjeD0X88SAOeauXQ-oA.woff2) format('woff2');
+mso-font-alt: 'Georgia';
+}
+@font-face {
+font-family: 'Source Serif Pro';
+font-style: italic;
+font-weight: 400;
+display: swap;
+src: local('Source Serif Pro-Italic');
+src: url(https://fonts.gstatic.com/s/sourceserifpro/v15/neIWzD-0qpwxpaWvjeD0X88SAOeauXEOoguP.woff2) format('woff2');
+mso-font-alt: 'Georgia';
+}
+@font-face {
+font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 600;
+display: swap;
+src: local('Source Serif Pro-Bold');
+src: url(https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasasatSyqxA.woff2) format('woff2');
+mso-font-alt: 'Georgia';
+}
+@font-face {
+font-family: 'Source Serif Pro';
+font-style: italic;
+font-weight: 600;
+display: swap;
+src: local('Source Serif Pro-BoldItalic');
+src: url(https://fonts.gstatic.com/s/sourceserifpro/v15/neIVzD-0qpwxpaWvjeD0X88SAOeauXEGfS-axq0r.woff2) format('woff2');
+mso-font-alt: 'Georgia';
+}
+</style>
+<style type="text/css">
+/* ---------- RESET ---------- */
+img {
+border: none;
+-ms-interpolation-mode: bicubic;
+display: block;
+}
+body {
+background-color: #ffffff;
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 14px;
+line-height: 1.4;
+margin: 0;
+padding: 0;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+/* ---------- BODY & CONTAINERS ---------- */
+.body {
+background-color: #ffffff;
+width: 100%;
+}
+.container {
+display: block;
+margin: 0 auto !important;
+max-width: 640px;
+padding: 10px;
+width: 640px;
+}
+/* ---------- MAJOR BLOCKS ---------- */
+.main {
+background: #ffffff;
+width: 100%;
+}
+.wrapper {
+box-sizing: border-box;
+padding: 0 20px;
+}
+.content-block {
+padding-bottom: 10px;
+padding-top: 10px;
+}
+/* ---------- TYPOGRAPHY CLEAR ---------- */
+* {
+line-height: 100%;
+-webkit-font-smoothing: antialiased !important;
+-moz-osx-font-smoothing: grayscale !important;
+}
+p,
+a,
+li,
+td,
+blockquote {
+mso-line-height-rule: exactly;
+font-variant-numeric: lining-nums;
+letter-spacing: 0.25px;
+}
+a[href^=tel],
+a[href^=sms] {
+color: inherit;
+cursor: default;
+text-decoration: none;
+}
+p,
+a,
+li,
+td,
+body,
+table,
+blockquote {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+margin: 0;
+padding: 0;
+}
+/* ---------- OUTLOOK RESPONSIVENESS ---------- */
+@media only screen and (max-width:640px) {
+table.body .wrapper {
+padding: 0 !important;
+}
+table.body .container {
+padding: 0 !important;
+width: 100% !important;
+}
+table.body .main {
+border-left-width: 0 !important;
+border-radius: 0 !important;
+border-right-width: 0 !important;
+}
+table.main {
+margin: 0 auto;
+width: 100% !important;
+}
+}
+/* ---------- MOBILE ---------- */
+@media (max-width:480px) {
+/* ---------- HELPERS ---------- */
+.width_mobile {
+width: 100% !important;
+height: auto !important;
+float: left !important;
+padding: 0 !important;
+}
+.width_mobile_50 {
+width: 50% !important;
+height: auto !important;
+float: left !important;
+padding: 0 !important;
+}
+.width_mobile_33 {
+width: 33.333333% !important;
+height: auto !important;
+padding: 0 !important;
+}
+.hide_mobile {
+display: none !important;
+line-height: 0px !important;
+font-size: 0px !important;
+}
+.show_mobile {
+display: block !important;
+overflow: visible !important;
+width: 100% !important;
+max-width: 100% !important;
+height: auto !important;
+max-height: inherit !important;
+max-width: 100% !important;
+}
+.no_padding {
+padding: 0 !important;
+}
+.no_border {
+border: none !important;
+}
+.no_height {
+height: auto !important;
+}
+.center {
+margin: 0 auto !important;
+text-align: center !important;
+}
+.border-top {
+border-top: 1px solid #363636 !important;
+}
+.border-bottom {
+border-bottom: 1px solid #363636 !important;
+}
+/* ---------- FONTS ---------- */
+.fontS {
+font-size: 15px !important;
+line-height: 20px !important;
+}
+.fontM {
+font-size: 18px !important;
+line-height: 21px !important;
+}
+.fontL {
+font-size: 22px !important;
+line-height: 27px !important;
+}
+.fontXL {
+font-size: 30px !important;
+line-height: 36px !important;
+}
+.fontXXL {
+font-size: 36px !important;
+line-height: 42px !important;
+}
+/*---------- SPACING ---------- */
+.pt-0,
+.py-0 {
+padding-top: 0 !important
+}
+.pr-0,
+.px-0 {
+padding-right: 0 !important
+}
+.pb-0,
+.py-0 {
+padding-bottom: 0 !important
+}
+.pl-0,
+.px-0 {
+padding-left: 0 !important
+}
+.p-1 {
+padding: 6px !important
+}
+
+.pt-1,
+.py-1 {
+padding-top: 6px !important
+}
+.pr-1,
+.px-1 {
+padding-right: 6px !important
+}
+.pb-1,
+.py-1 {
+padding-bottom: 6px !important
+}
+.pl-1,
+.px-1 {
+padding-left: 6px !important
+}
+.p-2 {
+padding: 12px !important
+}
+.pt-2,
+.py-2 {
+padding-top: 12px !important
+}
+.pr-2,
+.px-2 {
+padding-right: 12px !important
+}
+.pb-2,
+.py-2 {
+padding-bottom: 12px !important
+}
+.pl-2,
+.px-2 {
+padding-left: 12px !important
+}
+.p-3 {
+padding: 18px !important
+}
+.pt-3,
+.py-3 {
+padding-top: 18px !important
+}
+.pr-3,
+.px-3 {
+padding-right: 18px !important
+}
+.pb-3,
+.py-3 {
+padding-bottom: 18px !important
+}
+.pl-3,
+.px-3 {
+padding-left: 18px !important
+}
+.p-4 {
+padding: 24px !important
+}
+.pt-4,
+.py-4 {
+padding-top: 24px !important
+}
+.pr-4,
+.px-4 {
+padding-right: 24px !important
+}
+.pb-4,
+.py-4 {
+padding-bottom: 24px !important
+}
+.pl-4,
+.px-4 {
+padding-left: 24px !important
+}
+}
+/* ---------- PRESERVE ---------- */
+@media all {
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+line-height: 100%;
+}
+.apple-link a {
+color: inherit !important;
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+}
+#MessageViewBody a {
+color: inherit;
+text-decoration: none;
+font-size: inherit;
+font-family: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+}
+</style>
+<style type="text/css">
+/* -------------------------- Multiview ---------------------- */
+input{
+display: none;
+}
+@media screen and (max-width:9999px){
+.cboxcheck:checked + input + * .thumb-carousel{
+height: auto !important;
+max-height:none!important;
+max-width:none!important;
+line-height:0;
+}
+.thumb-carousel span {
+font-size:0;
+line-height:0;
+}
+
+.cboxcheck:checked + input + * .thumb-carousel .car-content{
+display:none;
+max-height:0px;
+overflow:hidden;
+}
+.cbox0:checked + * .content-1,
+.thumb-carousel .cbox1:checked + span .content-1,
+.thumb-carousel .cbox2:checked + span .content-2,
+.thumb-carousel .cbox3:checked + span .content-3,
+.thumb-carousel .cbox4:checked + span .content-4,
+.thumb-carousel .cbox5:checked + span .content-5
+{
+display:block!important;
+max-height:none!important;
+overflow:visible!important;
+}
+	
+.cbox0:checked + * .content-6,
+.thumb-carousel .cbox6:checked + span .content-6,
+.thumb-carousel .cbox7:checked + span .content-7,
+.thumb-carousel .cbox8:checked + span .content-8,
+.thumb-carousel .cbox9:checked + span .content-9,
+.thumb-carousel .cbox10:checked + span .content-10 
+{
+display:block!important;
+max-height:none!important;
+overflow:visible!important;
+}
+
+
+.thumb-carousel .thumb{
+cursor:pointer;
+display:inline-block !important;
+width:17.5%;
+margin:1% 0.61%;
+border:1px solid #ffffff;
+}
+/* hide for thunderbird as it doesn't support checkbox toggling */
+.moz-text-html .thumb {
+display:none !important;
+}
+.thumb-carousel .thumb{
+transition: all .3s ease-out 0s;
+}
+.thumb-carousel .thumb:hover{
+border:1px solid #363636;
+}
+.cbox0:checked + * .thumb-1,
+.thumb-carousel .cbox1:checked + span .thumb-1,
+.thumb-carousel .cbox2:checked + span .thumb-2,
+.thumb-carousel .cbox3:checked + span .thumb-3,
+.thumb-carousel .cbox4:checked + span .thumb-4,
+.thumb-carousel .cbox5:checked + span .thumb-5
+{
+border-color: #333333;
+}
+	
+.cbox0:checked + * .thumb-6,
+.thumb-carousel .cbox6:checked + span .thumb-6,
+.thumb-carousel .cbox7:checked + span .thumb-7,
+.thumb-carousel .cbox8:checked + span .thumb-8,
+.thumb-carousel .cbox9:checked + span .thumb-9,
+.thumb-carousel .cbox10:checked + span .thumb-10 
+{
+border-color: #333333;
+}
+
+.thumb-carousel .thumb img{
+width:100%;
+height: auto;
+}
+.thumb-carousel img{
+max-height: none !important;
+}      
+.cboxcheck:checked + input + * .fallback{
+display:none !important;
+display:none;
+max-height: 0px;
+height: 0px;
+overflow: hidden;
+}
+}
+
+@media screen and (max-width:600px){
+.car-table.responsive,
+.car-table.responsive .thumb-carousel,
+.car-table.responsive .thumb-carousel .car-content img,
+.car-table.responsive .fallback .car-content img
+{
+width:100% !important;
+height:auto;
+}
+}    
+/* Hide interactive from Yahoo! Mail iOS since it doesn't support nested label interactivity */
+.yfix{}
+@media screen yahoo and (max-width:600px){
+.thumb-carousel{
+display:none!important;
+}
+.fallback{
+display:block!important;
+height:auto!important;
+max-height:none!important;
+}
+}
+</style>
+</head>
+
+<body>
+  <!-- ////////////////////////// PREVIEW TEXT ////////////////////////// -->
+  <div
+    style="display: none; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Shop A.S.Adventure</div>
+  <div style="display: none; max-height: 0px; overflow: hidden;"> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+  </div>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+    <tr>
+      <td class="hide_mobile">&nbsp;</td>
+      <td class="container" align="center">
+          <!-- START CENTERED WHITE CONTAINER -->
+          <table role="presentation" class="main">
+            <!-- START MAIN CONTENT AREA -->
+            <tr>
+              <td class="wrapper" align="center">
+                <!-- ================ HEADER ================ -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="right" valign="top" style="padding: 0 20px 0 0" class="width_mobile"><a
+                        href="https://www.asadventure.com/nl.html" _label="header_header_all_nvt_nvt" target="_blank"
+                        title="A.S.Adventure"><img
+                          src="http://t.update.asadventure.com/res/img/95A870B9E2861BC4A3DCB92D3FABA536.png" width="115"
+                          alt="A.S.Adventure"
+                          style="width:115px;display:block; border:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FF6900;"
+                          class="center"></a></td>
+                    <td style="font-size: 20px; line-height: 25px;" class="width_mobile center pt-1 pb-2"><a
+                        style="font-family:Helvetica-light,Helvetica,Arial, sans-serif; font-size: 20px; line-height: 25px; text-decoration: none; color: #3b4345;"
+                        href="https://www.asadventure.com/nl.html" target="_blank"
+                        _label="header_header_all_nvt_nvt">EXPLORE <span style="font-weight: bold;">MORE</span></a></td>
+                  </tr>
+                </table>
+                <!-- =========== BLANK SEPERATOR ============= -->
+                <table style="width:100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="font-family:serif;font-size:1px;line-height:1px;padding: 20px 0 0;" class="py-1">&nbsp;
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- ================= RIJ =============== -->
+
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td align="center"><a href="#A" _label="#L" target="_blank"><img
+                          src="images/icons/icon_merkindekijker.png" width="150" alt="Icon"
+                          style="width:150px;display:block; border:0; font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#3b4345;"
+                          class="center"></a></td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="font-size: 12px; line-height: 15px; padding: 5px 0 0;"
+                      class="px-2 pt-1 center"><a
+                        style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; line-height: 15px; text-decoration: none; color: #707070;"
+                        href="#A" _label="#L" target="_blank">PRODUCT IN DE KIJKER</a></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" align="center" style="font-size: 24px; line-height: 30px; padding: 5px 0 25px;"
+                      class="px-2 pt-2 pb-3"><a href="#A" _label="#L" target="_blank"
+                        style="text-decoration: none; font-family: Georgia, serif; font-size: 24px; line-height: 30px; color: #3b4345;"
+                        class="fontL">Rab Electron Pro Jacket</a></td>
+                  </tr>
+                </table>
+				  
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                  <tr>
+                    <!-- ************ Kolom 1 ************ -->
+                    <td width="294" style="width:294px; padding:0 0 0 12px" valign="top" class="width_mobile">
+                      <!-- ------------------------- Start carousel ------------------------- -->
+					  <!--[if !mso]><!-- -->
+					  <input type="radio" class="cboxcheck" style="display:none !important;" checked>
+					  <input type="radio" name="car-rd1" class="cbox0" style="display:none !important;" checked>
+					  <!--<![endif]-->
+					  <table class="car-table responsive" cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr>
+						  <td width="100%" align="center" style="width:100%">
+							<div>
+							  <!--[if !mso]><!-- -->
+							  <div class="thumb-carousel" width="294" style="width:294px;height:0px;max-height:0px;max-width:0px;overflow:hidden!important;text-align:center">
+								<label>
+								  <input type="radio" name="car-rd1" class="cbox5" style="display:none !important;">
+								  <span>
+									<label>
+									  <input type="radio" name="car-rd1" class="cbox4" style="display:none !important;">
+									  <span>
+										<label>
+										  <input type="radio" name="car-rd1" class="cbox3" style="display:none !important;">
+										  <span>
+											<label>
+											  <input type="radio" name="car-rd1" class="cbox2" style="display:none !important;">
+											  <span>
+												<label>
+												  <input type="radio" name="car-rd1" class="cbox1" style="display:none !important;">
+												  <span>
+													<div class="content-1 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas1.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-2 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas2.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-3 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas3.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-4 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas4.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-5 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas5.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<span class="thumb thumb-1"><img src="images/jas1.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+												  </span>
+												</label>
+												<span class="thumb thumb-2"><img src="images/jas2.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+											  </span>
+											</label>
+											<span class="thumb thumb-3"><img src="images/jas3.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+										  </span>
+										</label>
+										<span class="thumb thumb-4"><img src="images/jas4.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+									  </span>
+									</label>
+									<span class="thumb thumb-5"><img src="images/jas5.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+								  </span>
+								</label>
+							  </div>
+							  <!--<![endif]-->
+							  <div class="fallback ">
+								<div class="car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas1.jpg" width="294" alt="----" style="display:block;" border="0"></a></div>
+							  </div>
+							</div>
+						  </td>
+						</tr>
+					  </table>
+                    </td>
+                    <!-- ************ Kolom 2 ************ -->
+                    <td width="294" style="width:294px; padding:0 0 0 12px" valign="top" class="width_mobile pt-3">
+                      <!-- ------------------------- Start carousel ------------------------- -->
+					  <!--[if !mso]><!-- -->
+					  <input type="radio" class="cboxcheck" style="display:none !important;" checked>
+					  <input type="radio" name="car-rd2" class="cbox0" style="display:none !important;" checked>
+					  <!--<![endif]-->
+					  <table class="car-table responsive" cellpadding="0" cellspacing="0" border="0" width="100%">
+						<tr>
+						  <td width="100%" align="center" style="width:100%">
+							<div>
+							  <!--[if !mso]><!-- -->
+							  <div class="thumb-carousel" width="294" style="width:294px;height:0px;max-height:0px;max-width:0px;overflow:hidden!important;text-align:center">
+								<label>
+								  <input type="radio" name="car-rd2" class="cbox10" style="display:none !important;">
+								  <span>
+									<label>
+									  <input type="radio" name="car-rd2" class="cbox9" style="display:none !important;">
+									  <span>
+										<label>
+										  <input type="radio" name="car-rd2" class="cbox8" style="display:none !important;">
+										  <span>
+											<label>
+											  <input type="radio" name="car-rd2" class="cbox7" style="display:none !important;">
+											  <span>
+												<label>
+												  <input type="radio" name="car-rd2" class="cbox6" style="display:none !important;">
+												  <span>
+													<div class="content-6 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas1.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-7 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas2.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-8 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas3.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-9 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas4.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<div class="content-10 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas5.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+													<span class="thumb thumb-6"><img src="images/jas1.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+												  </span>
+												</label>
+												<span class="thumb thumb-7"><img src="images/jas2.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+											  </span>
+											</label>
+											<span class="thumb thumb-8"><img src="images/jas3.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+										  </span>
+										</label>
+										<span class="thumb thumb-9"><img src="images/jas4.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+									  </span>
+									</label>
+									<span class="thumb thumb-10"><img src="images/jas5.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+								  </span>
+								</label>
+							  </div>
+							  <!--<![endif]-->
+							  <div class="fallback ">
+								<div class="car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas1.jpg" width="294" alt="----" style="display:block;" border="0"></a></div>
+							  </div>
+							</div>
+						  </td>
+						</tr>
+					  </table>
+                      <!-- ------------------------- End carousel ------------------------- -->
+                    </td>
+                  </tr>
+                </table>
+              <!-- ------------------------- End carousel ------------------------- -->
+
+                <!-- //////////////////////// FOOTER //////////////////////// -->
+                <%@ include view='rc_be_marketing_footer2023_benl' %>
+                <!-- //////////////////////// FOOTER END //////////////////////// -->
+              </td>
+            </tr>
+            <!-- END MAIN CONTENT AREA -->
+          </table>
+          <!-- END CENTERED WHITE CONTAINER -->
+      </td>
+      <td class="hide_mobile">&nbsp;</td>
+    </tr>
+  </table>
+</body>
+
+</html>
