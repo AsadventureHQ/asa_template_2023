@@ -18,40 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -98,39 +64,167 @@ Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### CSS
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* 1 multiview (line 370)
   ```sh
-  npm install npm@latest -g
+    .cbox0:checked + * .content-1,
+    .thumb-carousel .cbox1:checked + span .content-1,
+    .thumb-carousel .cbox2:checked + span .content-2,
+    .thumb-carousel .cbox3:checked + span .content-3,
+    .thumb-carousel .cbox4:checked + span .content-4,
+    .thumb-carousel .cbox5:checked + span .content-5 
+    {
+    display:block!important;
+    max-height:none!important;
+    overflow:visible!important;
+    }
+  ```
+* Change into:
+  ```sh
+    .cbox0:checked + * .content-1,
+    .thumb-carousel .cbox1:checked + span .content-1,
+    .thumb-carousel .cbox2:checked + span .content-2,
+    .thumb-carousel .cbox3:checked + span .content-3,
+    .thumb-carousel .cbox4:checked + span .content-4,
+    .thumb-carousel .cbox5:checked + span .content-5
+    {
+    display:block!important;
+    max-height:none!important;
+    overflow:visible!important;
+    }
+    	
+    .cbox0:checked + * .content-6,
+    .thumb-carousel .cbox6:checked + span .content-6,
+    .thumb-carousel .cbox7:checked + span .content-7,
+    .thumb-carousel .cbox8:checked + span .content-8,
+    .thumb-carousel .cbox9:checked + span .content-9,
+    .thumb-carousel .cbox10:checked + span .content-10 
+    {
+    display:block!important;
+    max-height:none!important;
+    overflow:visible!important;
+    }
+  ```
+### HTML
+
+This is an example of how to list things you need to use the software and how to install them.
+* 1 multiview (line 370)
+  ```sh
+    .cbox0:checked + * .thumb-1,
+    .thumb-carousel .cbox1:checked + span .thumb-1,
+    .thumb-carousel .cbox2:checked + span .thumb-2,
+    .thumb-carousel .cbox3:checked + span .thumb-3,
+    .thumb-carousel .cbox4:checked + span .thumb-4,
+    .thumb-carousel .cbox5:checked + span .thumb-5 
+    {
+    border-color: #333333;
+    }
+  ```
+* Change into:
+  ```sh
+    .cbox0:checked + * .thumb-1,
+    .thumb-carousel .cbox1:checked + span .thumb-1,
+    .thumb-carousel .cbox2:checked + span .thumb-2,
+    .thumb-carousel .cbox3:checked + span .thumb-3,
+    .thumb-carousel .cbox4:checked + span .thumb-4,
+    .thumb-carousel .cbox5:checked + span .thumb-5
+    {
+    border-color: #333333;
+    }
+    	
+    .cbox0:checked + * .thumb-6,
+    .thumb-carousel .cbox6:checked + span .thumb-6,
+    .thumb-carousel .cbox7:checked + span .thumb-7,
+    .thumb-carousel .cbox8:checked + span .thumb-8,
+    .thumb-carousel .cbox9:checked + span .thumb-9,
+    .thumb-carousel .cbox10:checked + span .thumb-10 
+    {
+    border-color: #333333;
+    }
   ```
 
+### HTML CAROUSEL
+1. Get a free API Key at [https://example.com](https://example.com)
+1. Edit the second radio input element: change the name into car-rd2 (where 2 is the number of carousels used within the same HTML). Keep "class="cbox0" as is.
+   ```sh
+   <input type="radio" name="car-rd2" class="cbox0" style="display:none !important;" checked>
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+* An example of an additional Carousel
+  ```sh
+<!-- ------------------------- Start carousel ------------------------- -->
+<!--[if !mso]><!-- -->
+<input type="radio" class="cboxcheck" style="display:none !important;" checked>
+<input type="radio" name="car-rd2" class="cbox0" style="display:none !important;" checked>
+<!--<![endif]-->
+<table class="car-table responsive" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+  <td width="100%" align="center" style="width:100%">
+  <div>
+    <!--[if !mso]><!-- -->
+    <div class="thumb-carousel" width="294" style="width:294px;height:0px;max-height:0px;max-width:0px;overflow:hidden!important;text-align:center">
+    <label>
+      <input type="radio" name="car-rd2" class="cbox10" style="display:none !important;">
+      <span>
+      <label>
+        <input type="radio" name="car-rd2" class="cbox9" style="display:none !important;">
+        <span>
+        <label>
+          <input type="radio" name="car-rd2" class="cbox8" style="display:none !important;">
+          <span>
+          <label>
+            <input type="radio" name="car-rd2" class="cbox7" style="display:none !important;">
+            <span>
+            <label>
+              <input type="radio" name="car-rd2" class="cbox6" style="display:none !important;">
+              <span>
+              <div class="content-6 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas1.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+              <div class="content-7 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas2.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+              <div class="content-8 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas3.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+              <div class="content-9 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas4.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+              <div class="content-10 car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas5.jpg" width="294" height="441" alt="----" style="display:block;max-height:0" border="0"></a></div>
+              <span class="thumb thumb-6"><img src="images/jas1.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+              </span>
+            </label>
+            <span class="thumb thumb-7"><img src="images/jas2.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+            </span>
+          </label>
+          <span class="thumb thumb-8"><img src="images/jas3.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+          </span>
+        </label>
+        <span class="thumb thumb-9"><img src="images/jas4.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+        </span>
+      </label>
+      <span class="thumb thumb-10"><img src="images/jas5.jpg" alt="----" style="display:block;max-height:0;" border="0"></span>
+      </span>
+    </label>
+    </div>
+    <!--<![endif]-->
+    <div class="fallback ">
+    <div class="car-content"><a href="#A" _label="#L" target="_blank"><img src="images/jas1.jpg" width="294" alt="----" style="display:block;" border="0"></a></div>
+    </div>
+  </div>
+  </td>
+</tr>
+</table>
+  ```
+  
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
